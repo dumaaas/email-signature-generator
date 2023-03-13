@@ -254,7 +254,7 @@
             >
           </p>
           <img
-            style="margin: 14px 0"
+            style="margin: 14px 0; width: 100px;"
             src="/logo.png"
             alt="logo"
           />
@@ -302,7 +302,7 @@ export default {
       number: "+382 69 358 725",
       info: false,
       isCopied: false,
-      instructions: true,
+      instructions: false,
     };
   },
   methods: {
@@ -351,6 +351,8 @@ export default {
   gap: 40px;
   padding: 0 16px;
   position: relative;
+    overflow: hidden;
+
 }
 * {
   margin: 0;
@@ -361,6 +363,27 @@ export default {
 ::selection {
   color: #000;
   background-color: rgb(30, 230, 151);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(30, 230, 151);
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(30, 230, 151, 0.7);
 }
 
 input {
