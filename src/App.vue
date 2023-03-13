@@ -198,7 +198,7 @@
               width: 20px;
               height: 1px;
               background-color: #000;
-              margin: 20px 0;
+              margin: 24px 0 22px;
             "
           ></div>
           <p
@@ -238,7 +238,7 @@
             web: www.bild-studio.com
           </p>
           <img
-            style="margin: 11px 0; width: 100px;"
+            style="margin: 10px 0 13px 0; width: 100px;"
             src="/logo.png"
             alt="logo"
           />
