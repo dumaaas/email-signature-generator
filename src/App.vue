@@ -172,8 +172,8 @@
           <h1
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 23px;
-              line-height: 33px;
+              font-size: 19px;
+              line-height: 28px;
               font-weight: 700;
               color: #000;
               margin: 0;
@@ -184,8 +184,8 @@
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 17px;
-              line-height: 24px;
+              font-size: 13px;
+              line-height: 20px;
               font-weight: 400;
               color: #000;
               margin: 0;
@@ -204,57 +204,41 @@
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 17px;
-              line-height: 24px;
+              font-size: 13px;
+              line-height: 20px;
               font-weight: 400;
               color: #000;
               margin: 0;
             "
           >
-            mob:
-            <a
-              :href="`tel:${number.replace(/\s+/g, '')}`"
-              style="text-decoration: none; color: #000"
-              >{{ number }}</a
-            >
+            mob: {{ number }}
           </p>
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 17px;
-              line-height: 24px;
+              font-size: 13px;
+              line-height: 20px;
               font-weight: 400;
               color: #000;
               margin: 0;
             "
           >
-            office:
-            <a
-              href="tel:+38267000275"
-              style="text-decoration: none; color: #000"
-            >
-              +382 67 000 275</a
-            >
+            office: +382 67 000 275
           </p>
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 17px;
-              line-height: 24px;
+              font-size: 13px;
+              line-height: 20px;
               font-weight: 400;
               color: #000;
               margin: 0;
             "
           >
-            web:
-            <a
-              href="http://www.bild-studio.com"
-              style="text-decoration: none; color: #000"
-              >www.bild-studio.com</a
-            >
+            web: www.bild-studio.com
           </p>
           <img
-            style="margin: 14px 0; width: 100px;"
+            style="margin: 11px 0; width: 100px;"
             src="/logo.png"
             alt="logo"
           />
@@ -262,8 +246,8 @@
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 19px;
+              font-size: 11px;
+              line-height: 15px;
               font-weight: 400;
               color: #999999;
               margin: 0;
@@ -275,8 +259,8 @@
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 19px;
+              font-size: 11px;
+              line-height: 15px;
               font-weight: 400;
               color: #999999;
               margin: 0;
