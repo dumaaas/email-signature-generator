@@ -253,20 +253,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <!-- <img
-            v-if="!oldLogo"
-            style="margin: 10px 0 13px 0; width: 100px"
-            src="/logo_1.png"
-            alt="logo"
-          />
-          <img
-            v-else
-            style="margin: 10px 0 13px 0; width: 160px"
-            src="/old-logo.png"
-            alt="logo"
-          /> -->
-
-          <p
+           <p
             style="
               font-family: 'Roboto', sans-serif;
               font-size: 11px;
@@ -291,6 +278,20 @@
           >
             Seriously, don't print, unless necessary.
           </p>
+          <img
+            v-if="!oldLogo"
+            style="margin: 10px 0 13px 0; width: 100px"
+            src="/logo_1.png"
+            alt="logo"
+          />
+          <img
+            v-else
+            style="margin: 10px 0 13px 0; width: 160px"
+            src="/old-logo.png"
+            alt="logo"
+          />
+
+         
         </div>
       </div>
       <button @click="copyContent()">Copy Signature</button>
