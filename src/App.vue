@@ -280,13 +280,13 @@
           </p>
           <img
             v-if="!oldLogo"
-            style="margin: 10px 0 13px 0; width: 100px"
+            style="padding: 10px 0 13px 0; width: 100px"
             src="/logo_1.png"
             alt="logo"
           />
           <img
             v-else
-            style="margin: 10px 0 13px 0; width: 160px"
+            style="padding: 10px 0 13px 0; width: 160px"
             src="/old-logo.png"
             alt="logo"
           />
