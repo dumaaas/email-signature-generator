@@ -254,14 +254,15 @@
               font-weight: 400;
               color: #000;
               margin: 0;
+              padding-bottom: 13px;
             "
           >
             web: www.bild-studio.com
           </p>
-          <div v-if="!oldLogo" style="padding: 10px 0 13px 0; width: 100px">
+          <div v-if="!oldLogo" style="width: 100px">
             <img style="max-width: 100%" src="/logo_1.png" alt="logo" />
           </div>
-          <div v-else style="padding: 10px 0 13px 0; width: 160px">
+          <div v-else style="width: 160px">
             <img style="max-width: 100%" src="/old-logo.png" alt="logo" />
           </div>
           <p
@@ -272,6 +273,7 @@
               font-weight: 400;
               color: #999999;
               margin: 0;
+              padding-top: 13px;
             "
           >
             Think about the planet and give your contribution to the
