@@ -218,7 +218,7 @@
             {{ position }}
           </p>
           <div
-            style="width: 20px; border-top: 1px solid #000; margin: 24px 0 22px"
+            style="width: 20px; border-top: 1px solid #000;"
           ></div>
           <p
             v-if="number.length"
@@ -254,7 +254,6 @@
               font-weight: 400;
               color: #000;
               margin: 0;
-              padding-bottom: 13px;
             "
           >
             web: www.bild-studio.com
@@ -273,7 +272,6 @@
               font-weight: 400;
               color: #999999;
               margin: 0;
-              padding-top: 13px;
             "
           >
             Think about the planet and give your contribution to the
