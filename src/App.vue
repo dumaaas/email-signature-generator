@@ -253,12 +253,12 @@
               line-height: 20px;
               font-weight: 400;
               color: #000;
-              margin: 0;
+              margin: 0 0 13px 0;
             "
           >
             web: www.bild-studio.com
           </p>
-          <img style="margin: 13px 0 10px 0;" src="/logo_4.png" alt="logo" />
+          <img src="/logo_4.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
@@ -266,7 +266,7 @@
               line-height: 15px;
               font-weight: 400;
               color: #999999;
-              margin: 0;
+              margin: 10px 0 0 0;
             "
           >
             Think about the planet and give your contribution to the
