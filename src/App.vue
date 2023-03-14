@@ -241,188 +241,6 @@
           >
             office: {{ office }}
           </p>
-           <p
-            v-if="number.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            mob: {{ number }}
-          </p>
-          <p
-            v-if="office.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            office: {{ office }}
-          </p>
-           <p
-            v-if="number.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            mob: {{ number }}
-          </p>
-          <p
-            v-if="office.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            office: {{ office }}
-          </p>
-           <p
-            v-if="number.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            mob: {{ number }}
-          </p>
-          <p
-            v-if="office.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            office: {{ office }}
-          </p>
-           <p
-            v-if="number.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            mob: {{ number }}
-          </p>
-          <p
-            v-if="office.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            office: {{ office }}
-          </p>
-           <p
-            v-if="number.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            mob: {{ number }}
-          </p>
-          <p
-            v-if="office.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            office: {{ office }}
-          </p>
-           <p
-            v-if="number.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            mob: {{ number }}
-          </p>
-          <p
-            v-if="office.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            office: {{ office }}
-          </p>
-           <p
-            v-if="number.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            mob: {{ number }}
-          </p>
-          <p
-            v-if="office.length"
-            style="
-              font-family: 'Roboto', sans-serif;
-              font-size: 13px;
-              line-height: 20px;
-              font-weight: 400;
-              color: #000;
-              margin: 0;
-            "
-          >
-            office: {{ office }}
-          </p>
           <p
             style="
               font-family: 'Roboto', sans-serif;
@@ -435,7 +253,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img
+          <!-- <img
             v-if="!oldLogo"
             style="margin: 10px 0 13px 0; width: 100px"
             src="/logo_1.png"
@@ -446,7 +264,7 @@
             style="margin: 10px 0 13px 0; width: 160px"
             src="/old-logo.png"
             alt="logo"
-          />
+          /> -->
 
           <p
             style="
