@@ -1,12 +1,14 @@
 <template>
   <div id="app">
     <header>
-      <img v-if="!oldLogo"
+      <img
+        v-if="!oldLogo"
         style="margin: 30px 0 13px 0; width: 160px"
         src="/logo_1.png"
         alt="logo"
       />
-      <img v-else
+      <img
+        v-else
         style="margin: 30px 0 13px 0; width: 220px"
         src="/old-logo.png"
         alt="logo"
@@ -85,7 +87,10 @@
         <label>Office number</label>
         <input v-model="office" type="text" placeholder="Your number" />
       </div>
-      <div class="form-input" style="align-items: center; flex-direction: row; gap: 10px;">
+      <div
+        class="form-input"
+        style="align-items: center; flex-direction: row; gap: 10px"
+      >
         <label>Old logo?</label>
         <input v-model="oldLogo" type="checkbox" placeholder="Your number" />
       </div>
@@ -253,7 +258,13 @@
           >
             web: www.bild-studio.com
           </p>
-           <p
+          <div v-if="!oldLogo" style="padding: 10px 0 13px 0; width: 100px">
+            <img style="max-width: 100%" src="/logo_1.png" alt="logo" />
+          </div>
+          <div v-else style="padding: 10px 0 13px 0; width: 160px">
+            <img style="max-width: 100%" src="/old-logo.png" alt="logo" />
+          </div>
+          <p
             style="
               font-family: 'Roboto', sans-serif;
               font-size: 11px;
@@ -278,20 +289,6 @@
           >
             Seriously, don't print, unless necessary.
           </p>
-          <img
-            v-if="!oldLogo"
-            style="padding: 10px 0 13px 0; width: 100px"
-            src="/logo_1.png"
-            alt="logo"
-          />
-          <img
-            v-else
-            style="padding: 10px 0 13px 0; width: 160px"
-            src="/old-logo.png"
-            alt="logo"
-          />
-
-         
         </div>
       </div>
       <button @click="copyContent()">Copy Signature</button>
