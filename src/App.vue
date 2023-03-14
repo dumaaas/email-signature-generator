@@ -218,7 +218,7 @@
             {{ position }}
           </p>
           <div
-            style="width: 20px; border-top: 1px solid #000;"
+            style="width: 20px; border-top: 1px solid #000; margin: 24px 0 22px"
           ></div>
           <p
             v-if="number.length"
@@ -258,12 +258,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <div v-if="!oldLogo" style="width: 100px">
-            <img style="max-width: 100%" src="/logo_1.png" alt="logo" />
-          </div>
-          <div v-else style="width: 160px">
-            <img style="max-width: 100%" src="/old-logo.png" alt="logo" />
-          </div>
+          <img style="margin: 13px 0 10px 0;" src="/logo_4.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
