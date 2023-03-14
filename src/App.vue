@@ -1,6 +1,12 @@
 <template>
   <div id="app">
-    <header></header>
+    <header>
+      <img
+        style="margin: 30px 0 13px 0; width: 160px"
+        src="/logo_1.png"
+        alt="logo"
+      />
+    </header>
     <div :class="[info ? 'showInfo' : '', 'form']">
       <div class="showInfo-title">
         <h2>Your Info</h2>
@@ -240,7 +246,7 @@
           </p>
           <img
             style="margin: 10px 0 13px 0; width: 100px"
-            src="/logo_4.png"
+            src="/logo_1.png"
             alt="logo"
           />
 
@@ -398,6 +404,10 @@ input:focus {
 ::-ms-input-placeholder {
   /* Microsoft Edge */
   color: rgba(0, 0, 0, 0.87);
+}
+
+header {
+  margin-bottom: 40px;
 }
 
 .form {
