@@ -2,15 +2,8 @@
   <div id="app">
     <header>
       <img
-        v-if="!oldLogo"
-        style="margin: 30px 0 13px 0; width: 160px"
+        style="margin: 30px 0 13px 0; width: 180px"
         src="/logo_1.png"
-        alt="logo"
-      />
-      <img
-        v-else
-        style="margin: 30px 0 13px 0; width: 220px"
-        src="/old-logo.png"
         alt="logo"
       />
     </header>
@@ -86,13 +79,6 @@
       <div class="form-input">
         <label>Office number</label>
         <input v-model="office" type="text" placeholder="Your number" />
-      </div>
-      <div
-        class="form-input"
-        style="align-items: center; flex-direction: row; gap: 10px"
-      >
-        <label>Old logo?</label>
-        <input v-model="oldLogo" type="checkbox" placeholder="Your number" />
       </div>
     </div>
     <div :class="[instructions ? 'showInfo' : '', 'form']">
@@ -258,7 +244,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img src="/logo_4.png" alt="logo" />
+          <img src="/logo_1.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
@@ -303,7 +289,6 @@ export default {
       office: "+382 67 000 275",
       info: false,
       isCopied: false,
-      oldLogo: false,
       instructions: false,
     };
   },
