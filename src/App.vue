@@ -196,8 +196,7 @@
           <div
             style="
               width: 20px;
-              height: 1px;
-              background-color: #000;
+              border-top: 1px solid #000;
               margin: 24px 0 22px;
             "
           ></div>
