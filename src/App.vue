@@ -67,8 +67,12 @@
         <input v-model="position" type="text" placeholder="Your position" />
       </div>
       <div class="form-input">
-        <label>Phone</label>
+        <label>Mobile number</label>
         <input v-model="number" type="text" placeholder="Your number" />
+      </div>
+      <div class="form-input">
+        <label>Office number</label>
+        <input v-model="office" type="text" placeholder="Your number" />
       </div>
     </div>
     <div :class="[instructions ? 'showInfo' : '', 'form']">
@@ -194,13 +198,10 @@
             {{ position }}
           </p>
           <div
-            style="
-              width: 20px;
-              border-top: 1px solid #000;
-              margin: 24px 0 22px;
-            "
+            style="width: 20px; border-top: 1px solid #000; margin: 24px 0 22px"
           ></div>
           <p
+            v-if="number.length"
             style="
               font-family: 'Roboto', sans-serif;
               font-size: 13px;
@@ -213,6 +214,7 @@
             mob: {{ number }}
           </p>
           <p
+            v-if="office.length"
             style="
               font-family: 'Roboto', sans-serif;
               font-size: 13px;
@@ -222,7 +224,7 @@
               margin: 0;
             "
           >
-            office: +382 67 000 275
+            office: {{ office }}
           </p>
           <p
             style="
@@ -237,7 +239,7 @@
             web: www.bild-studio.com
           </p>
           <img
-            style="margin: 10px 0 13px 0; width: 100px;"
+            style="margin: 10px 0 13px 0; width: 100px"
             src="/logo_4.png"
             alt="logo"
           />
@@ -283,6 +285,7 @@ export default {
       name: "Stefan Darmanović",
       position: "Graphic designer",
       number: "+382 69 358 725",
+      office: "+382 67 000 275",
       info: false,
       isCopied: false,
       instructions: false,
@@ -334,8 +337,7 @@ export default {
   gap: 40px;
   padding: 0 16px;
   position: relative;
-    overflow: hidden;
-
+  overflow: hidden;
 }
 * {
   margin: 0;
@@ -361,7 +363,7 @@ export default {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: rgb(30, 230, 151);
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 /* Handle on hover */
