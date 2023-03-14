@@ -239,7 +239,7 @@
           </p>
           <img
             style="margin: 10px 0 13px 0; width: 100px;"
-            src="/logo.png"
+            src="/logo_4.png"
             alt="logo"
           />
 
