@@ -253,8 +253,8 @@
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 11px;
-              line-height: 15px;
+              font-size: 13px;
+              line-height: 20px;
               font-weight: 400;
               color: #999999;
               margin: 0;
@@ -266,8 +266,8 @@
           <p
             style="
               font-family: 'Roboto', sans-serif;
-              font-size: 11px;
-              line-height: 15px;
+              font-size: 13px;
+              line-height: 20px;
               font-weight: 400;
               color: #999999;
               margin: 0;
