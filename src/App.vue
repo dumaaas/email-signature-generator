@@ -535,6 +535,10 @@ header {
   color: rgba(30, 230, 151, 0.5);
 }
 
+.preview-instructions:hover {
+  color: rgba(30, 230, 151, 0.5);
+}
+
 .cards {
   position: relative;
   display: flex;
