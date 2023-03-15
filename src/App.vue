@@ -3,7 +3,7 @@
     <header>
       <img
         style="margin: 30px 0 13px 0; width: 180px"
-        src="/logo_new.png"
+        src="/logo_mali.png"
         alt="logo"
       />
     </header>
@@ -247,7 +247,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img src="/logo_new.png" alt="logo" />
+          <img src="/logo_mali.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
