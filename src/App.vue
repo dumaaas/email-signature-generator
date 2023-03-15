@@ -309,6 +309,7 @@ export default {
     },
     copyContent() {
       if (this.isCopied) return;
+      document.getElementById("big-img").style.width = "";
       const range = document.createRange();
       range.selectNode(this.$refs.content);
 
@@ -320,6 +321,7 @@ export default {
 
       selection.removeAllRanges();
       this.showCopyTooltip();
+      document.getElementById("big-img").style.width = "100px";
     },
     showCopyTooltip() {
       this.isCopied = true;
