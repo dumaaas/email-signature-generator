@@ -3,7 +3,7 @@
     <header>
       <img
         style="margin: 30px 0 13px 0; width: 180px"
-        src="/logo_mali.png"
+        src="/logo_veliki.png"
         alt="logo"
       />
     </header>
