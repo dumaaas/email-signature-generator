@@ -178,6 +178,7 @@
         Successfully copied!
       </div>
       <div class="preview">
+        <br/>
         <div ref="content">
           <h1
             style="
@@ -461,7 +462,7 @@ header {
   background-color: #fff;
   box-shadow: 0 0px 1px 2px rgba(30, 230, 151, 0.4),
     0 2px 2px 0 rgba(30, 230, 151, 0.44), 2px 1px 5px 0 rgba(30, 230, 151, 0.42);
-  padding: 20px;
+  padding: 0 20px;
   border-radius: 14px;
   max-width: 471px;
 }
