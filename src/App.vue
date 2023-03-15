@@ -3,7 +3,7 @@
     <header>
       <img
         style="margin: 30px 0 13px 0; width: 180px"
-        src="/logo_1.png"
+        src="/logo_new.png"
         alt="logo"
       />
     </header>
@@ -152,6 +152,9 @@
           <li>Enter a name for your signature and click "Create".</li>
           <li>In the text box, paste your HTML code for the signature.</li>
           <li>
+            In the text box, click on the Bild logo image and select 'Small'
+          </li>
+          <li>
             If the signature looks good, select the signature from the drop-down
             menu under "For new emails use" to add it to all new emails you
             compose in Gmail.
@@ -244,7 +247,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img src="/logo_1.png" alt="logo" />
+          <img src="/logo_new.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
