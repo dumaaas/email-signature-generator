@@ -2,7 +2,7 @@
   <div id="app">
     <header>
       <img
-        style="margin: 30px 0 13px 0; width: 180px"
+        style="margin: 30px 0 13px 0; width: 200px"
         src="/logo_veliki.png"
         alt="logo"
       />
@@ -247,7 +247,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img src="/logo_veliki.png" alt="logo" />
+          <img id="big-img" src="/logo_veliki.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
@@ -294,6 +294,9 @@ export default {
       isCopied: false,
       instructions: false,
     };
+  },
+  mounted() {
+    document.getElementById("big-img").style.width = "100px";
   },
   methods: {
     showInfo(val) {
