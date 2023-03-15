@@ -247,7 +247,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img id="big-img" src="/logo_veliki.png" alt="logo" />
+          <img id="big-img" style="width: 100px;" src="/logo_veliki.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
@@ -273,6 +273,7 @@
           >
             Seriously, don't print, unless necessary.
           </p>
+          <br/>
         </div>
       </div>
       <button @click="copyContent()">Copy Signature</button>
@@ -295,9 +296,7 @@ export default {
       instructions: false,
     };
   },
-  mounted() {
-    document.getElementById("big-img").style.width = "100px";
-  },
+
   methods: {
     showInfo(val) {
       this.info = val;
@@ -309,7 +308,6 @@ export default {
     },
     copyContent() {
       if (this.isCopied) return;
-      document.getElementById("big-img").style.width = "";
       const range = document.createRange();
       range.selectNode(this.$refs.content);
 
@@ -321,7 +319,6 @@ export default {
 
       selection.removeAllRanges();
       this.showCopyTooltip();
-      document.getElementById("big-img").style.width = "100px";
     },
     showCopyTooltip() {
       this.isCopied = true;
