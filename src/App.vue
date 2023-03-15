@@ -247,7 +247,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img src="/logo_mali.png" alt="logo" />
+          <img src="/logo_veliki.png" alt="logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
