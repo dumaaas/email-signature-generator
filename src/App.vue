@@ -178,7 +178,7 @@
         Successfully copied!
       </div>
       <div class="preview">
-        <br/>
+        <br />
         <div ref="content">
           <h1
             style="
@@ -245,7 +245,12 @@
           >
             web: www.bild-studio.com
           </p>
-          <img id="big-img" style="width: 100px;" src="https://www.bild-studio.com/wp-content/uploads/2023/03/logo_veliki.png" alt="bild-logo" />
+          <img
+            id="big-img"
+            style="width: 100px"
+            src="https://www.bild-studio.com/wp-content/uploads/2023/03/logo_veliki.png"
+            alt="bild-logo"
+          />
           <p
             style="
               font-family: 'Roboto', sans-serif;
@@ -256,8 +261,7 @@
               margin: 10px 0 0 0;
             "
           >
-            Think about the planet and give your contribution to the
-            sustainability.
+            Think about the planet and give your contribution to sustainability.
           </p>
           <p
             style="
@@ -271,7 +275,7 @@
           >
             Seriously, don't print, unless necessary.
           </p>
-          <br/>
+          <br />
         </div>
       </div>
       <button @click="copyContent()">Copy Signature</button>
