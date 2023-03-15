@@ -4,7 +4,7 @@
       <img
         style="margin: 30px 0 13px 0; width: 200px"
         src="https://www.bild-studio.com/wp-content/uploads/2023/03/logo_veliki.png"
-        alt="logo"
+        alt="bild-logo"
       />
     </header>
     <div :class="[info ? 'showInfo' : '', 'form']">
@@ -245,7 +245,7 @@
           >
             web: www.bild-studio.com
           </p>
-          <img id="big-img" style="width: 100px;" src="https://www.bild-studio.com/wp-content/uploads/2023/03/logo_veliki.png" alt="logo" />
+          <img id="big-img" style="width: 100px;" src="https://www.bild-studio.com/wp-content/uploads/2023/03/logo_veliki.png" alt="bild-logo" />
           <p
             style="
               font-family: 'Roboto', sans-serif;
